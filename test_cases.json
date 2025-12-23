@@ -1,0 +1,14 @@
+[
+  {
+    "input_variables": {
+      "article": "The stock market crashed today due to unexpected inflation reports. The Dow Jones fell 500 points."
+    },
+    "expected_output": "Markets dropped because of inflation news."
+  },
+  {
+    "input_variables": {
+      "article": "A new species of frog was discovered in the Amazon rainforest. It has bright blue spots."
+    },
+    "expected_output": "Scientists found a blue-spotted frog in the Amazon."
+  }
+]

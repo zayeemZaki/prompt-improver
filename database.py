@@ -3,9 +3,10 @@ from datetime import datetime
 from typing import Optional, List
 from sqlalchemy import create_engine, ForeignKey, Integer, String, Text, DateTime, JSON, Float
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
+import os
 
-
-DB_URL = "sqlite:///prompt_history.db"
+DB_FOLDER = os.getenv("DB_FOLDER", ".")
+DB_URL = f"sqlite:///{os.path.join(DB_FOLDER, 'prompt_history.db')}"
 
 class Base(DeclarativeBase):
     pass
