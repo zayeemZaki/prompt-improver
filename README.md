@@ -2,6 +2,8 @@
 
 An intelligent system that automatically improves AI prompts by evaluating their performance and iteratively optimizing them. Built with FastAPI, Streamlit, and Google's Gemini AI.
 
+**[Try the live demo on HuggingFace Spaces](https://huggingface.co/spaces/zayeem11511/prompt-improver)**
+
 ## What It Does
 
 Prompt Improver is designed to help you create better prompts through a data-driven approach:
@@ -63,6 +65,8 @@ Instead of manually tweaking prompts, this tool uses AI to understand what's fai
    Visit `http://localhost:7860` to start improving prompts
 
 ## How It Works
+
+![Architecture Diagram](architecture.png)
 
 ### The Optimization Loop
 
