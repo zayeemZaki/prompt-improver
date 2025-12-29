@@ -238,4 +238,4 @@ For issues, questions, or feature requests, please open an issue on the project 
 
 ---
 
-**Built with** love using FastAPI, Streamlit, and Google Gemini
+**Built using FastAPI, Streamlit, and Google Gemini
