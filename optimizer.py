@@ -13,7 +13,7 @@ from evaluator import run_evaluation
 load_dotenv()
 
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-MODEL = genai.GenerativeModel("gemini-2.5-pro")
+MODEL = genai.GenerativeModel("gemini-2.5-flash")
 
 
 def get_variables(text: str) -> Set[str]:

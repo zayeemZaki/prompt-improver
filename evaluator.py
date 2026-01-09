@@ -12,8 +12,8 @@ from database import EvaluationResult, Prompt, SessionLocal, TestCase
 load_dotenv()
 
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-JUDGE_MODEL = genai.GenerativeModel("gemini-2.5-flash")
-GENERATION_MODEL = genai.GenerativeModel("gemini-2.5-flash")
+JUDGE_MODEL = genai.GenerativeModel("gemini-2.5-flash-lite")
+GENERATION_MODEL = genai.GenerativeModel("gemini-2.5-flash-lite")
 
 
 def check_length_consistency(actual: str, expected: str) -> float:
